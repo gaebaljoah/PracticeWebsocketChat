@@ -12,9 +12,6 @@ public class HelloWebsocketApplication {
 		SpringApplication.run(HelloWebsocketApplication.class, args);
 	}
 
-	@Bean
-	public ServerEndpointExporter serverEndpointExporter() {
-		return new ServerEndpointExporter();
-	}
+
 
 }

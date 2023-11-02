@@ -23,6 +23,7 @@ public class MessageController extends Socket {
 
     @GetMapping("/")
     public String index() {
+        System.out.println("index controller를 잘 타는지");
         return "index.html";
     }
 
